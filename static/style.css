@@ -1,0 +1,157 @@
+#nav{
+text-align: center;
+justify-content: center;
+background-image: radial-gradient(circle at 12.24% 43.34%, #ff54c5 0, #ff4bd1 12.5%, #ff43dc 25%, #ff3ee7 37.5%, #f23cf2 50%, #d73efd 62.5%, #b644ff 75%, #8d4cff 87.5%, #4e54ff 100%);
+
+}
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+    margin: 0px;
+
+}
+#nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    margin: 0px;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.one1 p{
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(208, 247, 247);
+    text-shadow: 1px 1px 1px white;
+}
+.two1 img{
+    width: 650px;
+    height:420px;
+    
+    
+}
+.two1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.two2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:white
+}
+
+
+
+.two2 span{
+    color: rgb(238, 128, 248);
+
+
+
+
+}
+.three{
+    display: flex;
+    margin-top: 50px;
+   
+    
+}
+.three h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.three1{
+    border: 2px solid black;
+    text-align: center;
+    margin:19px;
+    box-shadow: 5px 5px 12px black;
+    background-color:lavender;
+
+}
+.three1 h3{
+    font-size: 29px;
+}
+
+.three2{
+    border: 2px solid black;
+    text-align: center;
+    margin:19px;
+    box-shadow: 5px 5px 12px black;
+    
+    background-color: ghostwhite;
+
+}
+.three2 h3{
+    font-size: 29px;
+}
+
+.three3{
+    border: 2px solid black;
+    text-align: center;
+    margin:19px;
+    box-shadow: 5px 5px 12px black;
+
+}
+.three3 h3{
+    font-size: 29px;
+}
+.eight ul li{
+list-style:none;
+}
+.eight ul li a{
+    text-decoration: none;
+    font-size:27px;
+    color:aqua;
+}
+.eight{
+    text-align:center;
+    background-color: black;
+}
+.contvid{
+    width: 100%;
+    height:70vh;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.conthold{
+    position: absolute;
+    
+}
+.nav ul li a{
+    z-index: 1;
+    opacity: 0.9;
+    color:rgb(227, 250, 250);
+    font-size: 22px;
+    text-decoration: none;
+    padding: 18px;
+    float: right;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: right;
+
+}
+.nav ul li{
+    list-style: none;
+    
+    
+}
+.nav{
+    z-index: 1;
+    opacity: 0.9;
+    padding-left: 700px;
+    
+}
+.one{
+    
+    padding-left: 600px;
+}
+.two{
+    background-color: black;
+}

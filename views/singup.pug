@@ -1,0 +1,26 @@
+html
+  head
+    meta( name='viewport', content='width=device-width, initial-scale=1' )
+    title My Site - #{title}
+    block scripts
+      script(src='/jquery.js')
+    block style 
+      style
+        include ../static/style2.css
+  body
+    block content
+    div.first 
+        #nav
+            ul
+               li #[a(href="") SINGUP] 
+    .sing 
+      .i 
+        .h LOGIN
+            form(action="/singup",method="post")
+              input(type="text", class="in",name="name",placeholder="ENTER YOUR NAME") 
+              input(type="email", class="in",name="email",placeholder="ENTER YOUR EMAIL") 
+              input(type="text",class="in",name="password",placeholder="PASSWORD")
+              button(class="btn")
+               | SUBMIT
+            
+        

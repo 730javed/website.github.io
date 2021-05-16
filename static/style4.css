@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#nav ul li{
+    list-style: none;
+}
+
+#nav ul li a{
+text-decoration: none;
+font-size: 50px;
+color: rgb(248, 175, 175);
+text-shadow: 2px 2px black;
+}
+.one img{
+    width: 500px;
+    height:400px;
+}
+.one{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.second p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one3 img{
+    width: 500px;
+    height:400px;
+}
+.one3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.second3 p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one2 img{
+    width: 500px;
+    height:400px;
+}
+.one2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.second2 p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width:320px){ 
+    body{
+        background-color: rgb(10, 10, 10);
+        color: white;
+    }
+    .one img{
+        width: 200px;
+        height: 150px;
+        border-radius: 12px;
+        box-shadow: 5px 5px 8px red;
+
+    }
+    .one2 img{
+        width: 200px;
+        height: 150px;
+        border-radius: 12px;
+        box-shadow: 5px 5px 8px red;
+
+    }
+    .one3 img{
+        width: 200px;
+        height: 150px;
+        border-radius: 12px;
+        box-shadow: 5px 5px 8px red;
+
+    }
+    .second p{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .second p span{
+        color:red;
+    }
+    .second2 p{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .second3 p{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .second3 p span{
+        color:red;
+    }
+    #nav ul li a{
+        font-size: 25px;
+        text-shadow: 1px 1px rgb(10, 10, 10);
+    }
+}
